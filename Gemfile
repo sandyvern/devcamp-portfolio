@@ -20,6 +20,7 @@ gem 'devise', '~> 4.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'pry-byebug'
 end
 
 group :development do
