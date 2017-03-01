@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/sandyvern/hogan_view_tool
+  revision: b874e08cf19186aa69b4173c39967888d755bd20
+  specs:
+    hogan_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -187,6 +193,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.2)
   friendly_id (~> 5.1.0)
+  hogan_view_tool!
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
