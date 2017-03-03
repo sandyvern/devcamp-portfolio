@@ -1,0 +1,31 @@
+<div class="collapse bg-inverse" id="navbarHeader">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 py-4">
+        <h4 class="text-white">About</h4>
+        <p class="text-muted">I have owned and operated a small pet sitting business since 2004. Before that I managed several equine show facilities for many years. 
+        I have had a love of <em></em>'all things computers'</em> since my parents brought home a Commordore64 back in the 80s. I have dedicated the last year and a half or so to seriously learning how to code.</p>
+      </div>
+      <div class="col-sm-4 py-4">
+        <h4 class="text-white">Explore</h4>
+        <ul class="list-unstyled">
+          <li><div><%= link_to 'Home', root_path, class: 'text-white' %></div></li>
+          <li><div><%= link_to 'About', about_me_path, class: 'text-white' %></div></li>
+          <li><div><%= link_to 'Contact', contact_path, class: 'text-white' %></div></li>
+          <li><div><%= link_to 'Blog', blogs_path, class: 'text-white' %></div></li>
+          <li><div><%= link_to 'Portfolio', portfolios_path, class: 'text-white' %></div></li>
+          <li><%= login_helper 'text-white' %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="navbar navbar-inverse bg-inverse">
+  <div class="container d-flex justify-content-between">
+    <a href="#" class="navbar-brand">Sandy Hogan</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</div>
