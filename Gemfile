@@ -22,6 +22,7 @@ gem 'hogan_view_tool', '~> 0.1.0'
 gem 'petergate', '~> 1.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
 group :development, :test do
   gem 'byebug', platform: :mri
