@@ -21,7 +21,19 @@
           <p class="notice"><%= notice %></p>
           <p class="alert"><%= alert %></p>
           
+          <!--Used to have a background image-->
           <div id="background"></div>
+          
+          <!--For having a video background-->
+          <%#= video_tag(
+              'HardDrivePhotojpeg.mp4',
+              id: 'background',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: 'home_bg.png'
+            )
+            %>       
           
           <%= render 'shared/application_nav' %>
           
