@@ -28,6 +28,7 @@ gem 'mini_magick', '~> 4.6', '>= 4.6.1'
 gem 'carrierwave-aws', '~> 1.1'
 gem 'dotenv-rails', '~> 2.2'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
+gem 'gritter', '~> 1.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
