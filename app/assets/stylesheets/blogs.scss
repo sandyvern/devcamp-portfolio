@@ -48,7 +48,7 @@ h6, .h6 {
 
 .blog-masthead {
   margin-bottom: 3rem;
-  background-color: #428bca;
+  background-color: #a16480;  /* #428bca*/
   -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
           box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
 }
@@ -58,7 +58,7 @@ h6, .h6 {
   position: relative;
   padding: 1rem;
   font-weight: 500;
-  color: #cdddeb;
+  color: #e2d0d8;  /* #e2d0d8 */
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -179,4 +179,33 @@ h6, .h6 {
  
  .social-links li {
   font-size: 2.5em;
+ }
+ 
+ /*
+ * Blog title
+ */
+ 
+ .blog-title {
+  color: #7e4e64;
+ }
+ 
+ /*
+ * Links
+ */
+ 
+ a, area {
+   color: #a16480;
+ }
+ 
+ a:hover {
+   color: #7e4e64;
+ }
+ 
+ /*
+ * Pagination links
+ */
+ 
+ .pagination a {
+   border: 1px solid #d8c0cb;
+   color: #a16480;
  }
