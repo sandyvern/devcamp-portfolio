@@ -29,7 +29,7 @@ module ApplicationHelper
       
       {
         url: about_me_path,
-        title: 'About Me'
+        title: 'About'
       },
       
       {
@@ -45,6 +45,11 @@ module ApplicationHelper
         url: portfolios_path,
         title: 'Portfolio'
       },
+      {
+        url: tech_news_path,
+        title: 'Tech News'
+      },
+    
     ]
   end
   
