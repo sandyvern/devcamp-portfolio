@@ -17,9 +17,6 @@
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
-    
-          <p class="notice"><%= notice %></p>
-          <p class="alert"><%= alert %></p>
           
           <!--Used to have a background image-->
           <div id="background"></div>
@@ -41,7 +38,7 @@
           
           <%= render 'shared/application_footer' %>
           
-          <%= render 'shared/alerts' %>
+          <%= alerts %>
           
           <%= source_helper("application") %>
         </div>
