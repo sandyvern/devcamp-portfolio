@@ -163,6 +163,7 @@ h6, .h6 {
  */
 
 .blog-footer {
+  margin-top: 20px;
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
@@ -201,11 +202,16 @@ h6, .h6 {
    color: #7e4e64;
  }
  
- /*
- * Pagination links
- */
+ .comment-card > .card {
+  margin-top: 15px;
+}
+
+.comment-attribution {
+  font-size: .8em;
+  font-style: italic;
+}
+
+.comment-name {
+  font-weight: 700;
+}
  
- .pagination a {
-   border: 1px solid #d8c0cb;
-   color: #a16480;
- }
