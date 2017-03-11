@@ -2,7 +2,10 @@
   <div class="sidebar-module sidebar-module-inset">
     <h4>About</h4>
     <p>Small business entrepreneur, animal lover, yoga junkie, wanna-be-computer geek, hula hooper, occasional blogger, mom to many furry, feathered and scaly kids! Full Stack Web Developer student at <%= link_to 'Flatiron School', 'http://wwww.flatironschool.com' %>.</p>
-    </div>
+  </div>
+  
+  <%= source_helper("alert alert-info blog-sidebar-source") %>
+  
   <div class="sidebar-module">
     <h4>Topics</h4>
     <% @sidebar_topics.each do |topic| %>
