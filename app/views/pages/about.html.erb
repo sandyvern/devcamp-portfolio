@@ -23,7 +23,85 @@
         at the University of New Hampshire. I would love to somehow be able join my 2 passions; animals and coding, 
         to create web applications that would help animal related businesses, such as veterinarians, pet care providers, 
         shelters and rescue organizations provide professional services to their communities and animal charges.</p>
+        
+        <p>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#jobHistory"
+            aria-expanded="false"
+            aria-controler="jobHistory"
+          >
+            Job History
+          </button>
+
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#education"
+            aria-expanded="false"
+            aria-controler="education"
+          >
+            Education
+          </button>
+        </p>
+
+        <p>
+          <div class="collapse" id="jobHistory">
+            <div class="card card-block">
+              <div class="row">
+                <div class="col-md-3">
+                  <%= image_tag 'pawprints.png', width: '100%' %>
+                </div>
+                
+                <div class="col-md-9">
+                  <strong>PawPrints & HoofBeats</strong> - Individually owned and operated. PawPrints & HoofBeats provides quality in-home pet care as an alternative to kennels or leaving pets in the care of neighbors or friends.
+                </div>
+              </div>
+            </div>
+            <div class="card card-block">
+              <div class="row">
+                <div class="col-md-3">
+                  <%= image_tag 'scclogo.jpg', width: '100%' %>
+                </div>
+                
+                <div class="col-md-9">
+                  <strong>Stamford Church of Christ</strong> - Office Aministrator. 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse" id="education">
+            <div class="card card-block">
+              <div class="row">
+                <div class="col-md-3">
+                  <%= image_tag 'thompsonschoolunh.jpeg', width: '100%' %>
+                </div>
+                
+                <div class="col-md-9">
+                  <strong>Thompson School of Applied Sciences</strong> - Located at the University of New Hampshire in Durham, NH. Associates in Applied Animal Science with a specialty in Equine Management.
+                </div>
+              </div>
+            </div>
+            <div class="card card-block">
+              <div class="row">
+                <div class="col-md-3">
+                  <%= image_tag 'flatironschool.jpeg', width: '100%' %>
+                </div>
+                
+                <div class="col-md-9">
+                  <strong>Flatiron School</strong> - Located in NYC, as well as an online program. Full Stack Web Developer online program.
+                </div>
+              </div>
+            </div>
+          </div>
+        </p>
       </div>
-    </div> 
+        
+      </div>
+    </div>
   </div>
 </div>
