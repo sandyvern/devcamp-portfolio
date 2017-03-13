@@ -101,6 +101,7 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     gritter (1.2.0)
+    hirb (0.7.3)
     hogan_view_tool (0.1.0)
     http (2.2.1)
       addressable (~> 2.3)
@@ -274,6 +275,7 @@ DEPENDENCIES
   font-awesome-rails (~> 4.7, >= 4.7.0.1)
   friendly_id (~> 5.1.0)
   gritter (~> 1.2)
+  hirb (~> 0.7.3)
   hogan_view_tool (~> 0.1.0)
   jbuilder (~> 2.5)
   jquery-rails
