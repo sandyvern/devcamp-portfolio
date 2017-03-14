@@ -85,5 +85,8 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   # Per Devise installation instructions
-  config.action_mailer.default_url_options = { host: 'https://jordan-rails-course-sandyvern.c9users.io' }
+  config.action_mailer.default_url_options = { host: 'https://seh-devcamp-portfolio.herokuapp.com' }
+  
+  config.action_cable.allowed_request_origins = ['https://seh-devcamp-portfolio.herokuapp.com', 'http://seh-devcamp-portfolio.herokuapp.com']
+  config.action_cable.url = "wss://seh-devcamp-portfolio.herokuapp.com/cable"
 end
