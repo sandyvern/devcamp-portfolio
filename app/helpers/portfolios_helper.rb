@@ -12,6 +12,7 @@ module PortfoliosHelper
       image_generator(height: '600', width: '400')
     end   
   end
+  
 end
   
   
